@@ -128,7 +128,7 @@ fs.readFile('script.txt', 'utf8', function(err, data) {
 
             couplets.push(couplet);
         } else {
-            console.log("Discarding line without a known actor: " + lines[i]);
+            // console.log("Discarding line without a known actor: " + lines[i]);
             i++;
         }
     }

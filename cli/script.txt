@@ -1,44 +1,14 @@
-Alexa: Welcome to Bria Pilates!  I can help you learn more about our classes, trainers, or help you book an appointment.  What would you like to do?
+Alexa: Yo, what's up?
 
-User: What classes are available today?
-Alexa:  There are 3 classes today, Beginner Pilates at 4:30pm, Barre Fusion at 5:30pm and Advanced Pilates at 6:30pm.  Would you like to hear more or book one of the classes?
+User: What's happening?
+    User:  How are you today?
+    Alexa:  I'm pretty awesome, how are you?
 
-User:  Tell me more about the Beginner Pilates class.
-    User:  Tell me more about Beginner Pilates.
-Alexa:  Beginner Pilates costs $40 and starts at 4:30pm at 101 Nickerson Street 110 and is taught by Heather Skogerson.  The class has 2 out of 5 spots available.  The description reads:  This class is designed for anyone who wants to refine the essential principles of Pilates.  If you have recently begun Pilates, we recommend you start with this class level.  Would you like to book it or hear more about the trainer?
+    User:  I'm great.
+        User:  Prettty good.
+        Alexa:  Sweet<stop/>
 
-User:  Tell me more about Heather Skogerson.
-    User:  Tell me more about the trainer.
-Alexa:  Heather is passionate about family, wellness, organic food and experiential life!  After graduating from Michigan State with a degree in Exercise Science, she moved to Seattle to be in a community that valued health and fitness as a lifestyle commitment.  Would you like to book Beginner Pilates?
-
-User:  Book the class.
-    User:  Book it.
-Alexa:  I've submitted your request for Beginner Pilates at 4:30pm, you should receive an email confirmation from Bria shortly.<stop/>
-
-User:  What classes do I have scheduled?
-    User:  What classes I have scheduled?
-Alexa:  You have one class upcoming.  Beginner Pilates with Heather Skogerson is scheduled for today at 4:30pm.<stop/>
-
-User:  I'd like to book an appointment.
-    User:  to book an appointment.
-    User:  to book an appointment with a trainer.
-Alexa:  What kind of appointment would you like to schedule?  You can book an Open Session, Initial Session, Private Pilates or Semi-Private.
-
-User:  Book a Private Pilates session.
-Alexa:  Which trainer would you like to book an appointment with?  You can say their name, ask for a list of trainers, or say any available staff.
-
-User:  List of trainers.
-Alexa:  Private Pilates costs $89 and is available with Heidi Barnes, Heather Skogerson, Faith Stankevich, or Lee Gulin.  Which one would you like to book?
-
-User:  Lee Gulin.
-Alexa:  Lee is next available on Thursday at 2pm or next Monday at 11am, 1pm or 3pm.  Which time would you like to pick?
-
-User:  Is there anything available on Tuesday?
-Alexa:  On Tuesday, Heidi Barnes is available at 1pm or 2pm and Faith Stanekevich at 5pm.  Would you like to pick one of these?
-
-User:  Book Heidi Barnes at two pm.
-Alexa:  I've submitted your request for Private Pilates with Heidi Barnes on Tuesday at 2pm, you should receive an email confirmation from Bria shortly.<stop/>
-
-User:  Help
-    User:  Help me
-Alexa:  You can ask about our class schedule, find out which classes you've signed up for, book an appointment with a trainer, or find out more about our staff.  What would you like to do?
+    User:  Not so good.
+        User:  Crappy.
+        User:  Not so hot.
+        Alexa:  Bummer<stop/>

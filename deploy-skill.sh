@@ -1,12 +1,20 @@
 #!/bin/bash
 
-# deploy the skill
+# generate the skill from script.txt
+pushd cli
+node generate_code.js
+popd
+
+# zip the skill
 pushd skill
 zip -r ../prototype.zip *
 popd
 
-sudo aws lambda update-function-code --function-name Prototype --zip-file fileb://prototype.zip
-sudo aws lambda invoke --function-name Prototype --payload file://skill/test.json output.txt
+# deploy the skill
+aws lambda update-function-code --function-name Prototype --zip-file fileb://prototype.zip
+
+# test the skill with a launch request
+aws lambda invoke --function-name Prototype --payload file://skill/test.json output.txt
 cat output.txt
 echo
-sudo rm output.txt
+rm output.txt

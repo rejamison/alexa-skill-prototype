@@ -1,19 +1,7 @@
-BIntent What classes are available today 
-CIntent Tell me more about the Beginner Pilates class 
-CIntent Tell me more about Beginner Pilates 
-DIntent Tell me more about Heather Skogerson 
-DIntent Tell me more about the trainer 
-EIntent Book the class 
-EIntent Book it 
-FIntent What classes do I have scheduled 
-FIntent What classes I have scheduled 
-GIntent I'd like to book an appointment 
-GIntent to book an appointment 
-GIntent to book an appointment with a trainer 
-HIntent Book a Private Pilates session 
-IIntent List of trainers 
-JIntent Lee Gulin 
-KIntent Is there anything available on Tuesday 
-LIntent Book Heidi Barnes at two pm 
-MIntent Help
-MIntent Help me
+BIntent What's happening 
+BIntent How are you today 
+CIntent I'm great 
+CIntent Prettty good 
+DIntent Not so good 
+DIntent Crappy 
+DIntent Not so hot 
