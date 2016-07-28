@@ -1,4 +1,4 @@
-# prototype
+# alexa-skill-prototype
 
 Builds prototype skills from a text-based script.  Works in a Mac or Unix environment and this manual assumes you already have an AWS account (https://console.aws.amazon.com) and a Developer account (https://developer.amazon.com).  To use it:
 
