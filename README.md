@@ -69,4 +69,9 @@ Go to https://developer.amazon.com and create a new Alexa skill.
 
 ## 6. Enjoy
 
-From here on, you can just modify script.txt and use './deploy-skill.sh' to update the prototype.  Enjoy!
+From here on, you can just modify script.txt and use './deploy-skill.sh' to update the prototype.  
+
+A couple of caveats:
+* The indented structure in the file is just for readability.  All the user dialogs will be top-level intents.  That means if you have the same utterance in different dialogs, it's ambiguous which one will get called.  Watch out for that if you want to do multiple dialogs with yes/no repsonses from the user.  Let me know in Github issues if you run into this and it's a problem.
+
+Enjoy!
