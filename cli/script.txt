@@ -6,6 +6,9 @@ User: What's happening?
 
     User:  I'm great.
         User:  Prettty good.
+        User:  Not bad.
+        User:  I'm good.
+        User:  Good.
         Alexa:  Sweet<stop/>
 
     User:  Not so good.
