@@ -2,6 +2,9 @@ BIntent What's happening
 BIntent How are you today 
 CIntent I'm great 
 CIntent Prettty good 
+CIntent Not bad 
+CIntent I'm good 
+CIntent Good 
 DIntent Not so good 
 DIntent Crappy 
 DIntent Not so hot 
