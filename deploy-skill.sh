@@ -7,6 +7,7 @@ popd
 
 # zip the skill
 pushd skill
+npm install
 zip -r ../prototype.zip *
 popd
 
