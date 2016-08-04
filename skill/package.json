@@ -1,0 +1,30 @@
+{
+  "name": "alexa-skill-prototype",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "description": "Quickly prototype an Alexa Skill.",
+  "author": {
+    "name": "Robert Jamison",
+    "email": "me@rejamison.com"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rejamison/alexa-skill-prototype/skill"
+  },
+  "keywords": [
+    "node",
+    "skill",
+    "alexa"
+  ],
+  "engines" : {
+    "node" : ">=4.3.0"
+  },
+  "dependencies": {
+    "alexa-sdk": "1.0.3"
+  },
+  "devDependencies": {
+  }
+}
