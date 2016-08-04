@@ -36,17 +36,17 @@ The initial "Alexa:" line is what the Skill will say if opened without an intent
  
 In the example above, if you open the skill with "Alexa, ask prototype what's happening", it replies with "I'm pretty awesome thanks."
 
-By default, the skill will leave the dialog open, but you can add "<stop/>" to the end of the Alexa dialog to close the session instead.
+By default, the skill will leave the dialog open, but you can add `<stop/>` to the end of the Alexa dialog to close the session instead.
 
-## 4. Setup AWS CLI
+## 3. Setup AWS CLI
 
 The project includes a deployment script that uses AWS CLI.  Instructions for installing it and configuring with your AWS keys is here:  http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
-## 3. Setup a Lambda.
+## 4. Setup a Lambda.
 
 Go to https://console.aws.amazon.com/lambda/ and setup a Lambda function called "Prototype".  You don't have to use a template, select "Alexa Skills Kit" as the trigger, and you can just accept all the defaults.
 
-## 4. Deploy your skill's code.
+## 5. Deploy your skill's code.
 
 At the root of the project, execute the "deploy_skill.sh" script, which will generate the skill code from the script and deploy it to your lambda function.
 
@@ -54,7 +54,7 @@ At the root of the project, execute the "deploy_skill.sh" script, which will gen
 ./deploy-skill.sh
 ```
 
-## 5. Configure your skill.
+## 6. Configure your skill.
 
 Go to https://developer.amazon.com and create a new Alexa skill.
  
@@ -67,7 +67,7 @@ Go to https://developer.amazon.com and create a new Alexa skill.
 7. Set the Lambda ARN to point to the Lambda you created above.
 8. Test things out by trying out one of the intents in your script.  In the simulator, try "what's happening".  From an Alexa device connected to your developer account, try "Alexa, ask Prototype what's happening?".
 
-## 6. Enjoy
+## 7. Enjoy
 
 From here on, you can just modify script.txt and use './deploy-skill.sh' to update the prototype.  
 
